@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.inside-main{
+    width: 47%;
+    height: 50vh;
+    border: 1px solid black;
+    border-radius: 20px; 
+    padding: 10px;
+}
+
+.resume-list{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.resume-list li{
+    list-style: none;
+    font-size: 1.5rem;
+    margin: 15px;
+}
+
+.resume-list li a{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.inside-second {
+    font-size: 1.2rem;
+    margin: 30px;
+}
+
+.quali li {
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
